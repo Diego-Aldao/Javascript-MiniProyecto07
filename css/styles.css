@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+.contenedor-imagen,
+.contenedor-descripcion,
+.contenedor-nombre {
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  background: url("/images/group-of-people-reading-book-sitting-on-chair-711009.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 90%;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.918);
+  max-width: 500px;
+  min-width: 250px;
+  box-shadow: 1px 1px 10px black;
+  position: relative;
+  padding: 5px 10px;
+}
+
+.contenedor-imagen {
+  height: 100px;
+}
+.persona {
+  width: 90px;
+  height: 90px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 50%;
+}
+
+.contenedor-descripcion {
+  height: 300px;
+}
+.descripcion {
+  text-align: center;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+.contenedor-nombre {
+  height: 50px;
+  font-style: italic;
+}
+
+/*FLECHAS*/
+.flecha-derecha,
+.flecha-izquierda {
+  width: 45px;
+  height: 45px;
+  color: white;
+  position: absolute;
+  bottom: -75px;
+  font-size: 2rem;
+}
+.flecha-derecha {
+  right: 55px;
+}
+.flecha-izquierda {
+  left: 55px;
+}
