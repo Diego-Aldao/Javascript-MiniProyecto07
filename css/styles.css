@@ -34,7 +34,7 @@ body {
   min-width: 250px;
   box-shadow: 1px 1px 10px black;
   position: relative;
-  padding: 5px 10px;
+  padding: 25px 10px;
 }
 
 .contenedor-imagen {
@@ -48,7 +48,7 @@ body {
 }
 
 .contenedor-descripcion {
-  height: 300px;
+  height: 250px;
 }
 .descripcion {
   text-align: center;
