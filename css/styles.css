@@ -13,7 +13,7 @@ body,
 
 body {
   height: 100vh;
-  background: url("/images/group-of-people-reading-book-sitting-on-chair-711009.jpg");
+  background: rgb(218, 218, 218);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +52,7 @@ body {
 }
 .descripcion {
   text-align: center;
-  line-height: 2;
+  line-height: 2.5;
   font-size: 1.1rem;
 }
 .contenedor-nombre {
@@ -69,6 +69,7 @@ body {
   position: absolute;
   bottom: -75px;
   font-size: 2rem;
+  text-shadow: 1px 1px 5px black;
 }
 .flecha-derecha {
   right: 55px;
